@@ -1,0 +1,3 @@
+FROM ngnix
+Copy ./usr/share/ngnix/html
+CMD ["nginx","g","daemon off;"]
